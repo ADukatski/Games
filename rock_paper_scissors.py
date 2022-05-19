@@ -3,7 +3,7 @@ import random
 pc_points = 0
 user_points = 0
 draw = 0
-rounds = 3
+rounds = int(input("Choose number of rounds: "))
 round_counter = 0
 
 choice = ['rock', 'paper', 'scissor']
