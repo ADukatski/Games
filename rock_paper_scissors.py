@@ -34,8 +34,8 @@ for i in range(rounds):
 
 
 if pc_points > user_points:
-    print('PC is the winner !')
+    print(f"PC is the winner with {pc_points} points from {rounds} !")
 elif pc_points < user_points:
-    print('User is the winner !')
+    print(f"User is the winner with {user_points} points from {rounds} !")
 elif pc_points == user_points:
     print('Tie !')
